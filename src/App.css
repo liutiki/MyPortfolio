@@ -1,4 +1,208 @@
+
 .cont{
   display:flex;
   flex-wrap: wrap;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  border:1px solid grey;
+  margin:20px;
+}
+
+
+.frontend{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 2px;
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+  background:linear-gradient(to right, #ffcc00, #ff6600, #cc3300);
+}
+
+.Julia{
+display:flex;
+flex-direction: column;
+font-family: "Exo 2", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 60px;    
+color:rgb(33, 37, 41)                                                      
+}
+
+.Name{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace;
+}
+
+.Front{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace;
+}
+
+.Hello{
+  margin-top: 5%;
+}
+
+.Myphoto{
+  margin-top: 5px;
+  width:32%;
+}
+
+
+
+
+
+.button-contact{
+  background-color:transparent;
+  padding:37px;
+  font-family: "Roboto Mono", monospace;
+  border:1px solid black ;
+  font-size:19px;
+  font-weight: 300;
+  margin-top: 10px;
+ }
+
+.button-contact:hover{
+border-color:azure;
+}
+
+
+
+
+.btn-top{
+ background-color:white;
+  padding:5px;
+  color:black;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  width:150px;
+  height:40px;
+  font-weight: 200;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin:3px;
+}
+
+.btn-top:hover{
+  color:white;
+  background-color: black;
+}
+
+
+/*Section About*/
+.header-position{
+  display:flex;
+  justify-content:flex-start;
+  margin-left: 5%;
+}
+
+.header{
+  margin-top: 30px;
+  font-size: 40px;
+  color:#D24545;
+  font-family: "Exo 2", sans-serif;
+  line-height: 50px;
+  font-weight: 700;
+  }
+
+.aboutMeText{
+font-family: "Roboto Mono", monospace;
+line-height: 27px;
+font-size: 17px;
+font-weight:400;
+}
+
+.TextPosition{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Copyright{
+  display:flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+  .frontend{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    }
+  
+  .Julia{
+  display:flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 30px;                                                    
+  }
+
+ 
+  .Name{
+    font-size: 16px;
+  }
+  
+  .Front{
+    font-size: 21px;  
+  }
+  
+  .Hello{
+    margin-top: 18%;
+  }
+  
+  .button-contact{
+    background-color:transparent;
+    padding:32px;
+    width:100%;
+    font-size:17px;
+ 
+   }
+
+   .Myphoto{
+    width:55%;
+  }
+  
+  .product-card {
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-info {
+    text-align: center;
+}
+
+
+
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  border:1px solid grey;
+  margin:20px;
+  align-items: flex-start;
+}
+
 }

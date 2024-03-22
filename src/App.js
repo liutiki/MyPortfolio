@@ -1,18 +1,43 @@
-import { useState } from "react";
-import Clothes from "./Projects/Clothes";
-import { data } from "./Projects/data";
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+import AboutMe from './AboutMe';
+import Home from './Home';
+import Contacts from './Contacts';
 import './App.css';
+import Projects from './Projects';
+import MyNav from "./Navbar/MyNav";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App (){
-    const [staff,setStuff]=useState(data);
 
-    return (<div>
-        <div className="cont">
-        <Projects grocery={staff} />
-        </div>
-    </div>
-    )
-}
+
+
+
+function App(){
+  
+
+  return <Router>
+    <MyNav />
+   
+    <Routes>
+    <Route path="/"element={<Home/>}/>
+    <Route path="/aboutMe" element={<AboutMe />} />
+    <Route path="/projects" element={<Projects />}/>
+    <Route path="/contacts" element={<Contacts />}/>
+    </Routes>
+  
+    </Router>
+
+
+    }
+
+
 
 
 export default App;

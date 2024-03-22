@@ -10,36 +10,60 @@ import splitBill from './Scrinshots/SplitBill.jpeg';
 import ToDoList from './Scrinshots/ToDoList.jpeg';
 import Weather from './Scrinshots/WeatherAPI.jpeg';
 import bookDiscont from './Scrinshots/Книжный дисконт.jpg';
+import shop from './Scrinshots/Shop-on-line.png';
 
 
 
 export const data = [
 
-    {
-  
-      id: 1,
-  
-      name: "API-recipe",
-  
-      searchTerm: "API",
-  
-      description: 'You may find any kind od recipe, using input',
-  
-      recipe: recipe,
-  
-    },
+  {
+    id: 1,
+
+    name: "Online Shop",
+
+    searchTerm: "React",
+
+    description: 'Peace of online shop, where I show how to use filter method.',
+
+    descriptionTwo: 'Used: UseState, props, react-router. Methods: FILTER, MAP.',
+
+    recipe: shop,
+
+    source:"https://lucent-sunshine-3a1dd2.netlify.app"
+  },
+
+
+  {
+    id: 2,
+
+    name: "Juwelry shop",
+
+    searchTerm: "React",
+
+    description: 'You may skip pictures, delete each item or delete all.',
+
+    descriptionTwo:'Used: React hook (useState), methods: MAP,FILTER.',
+
+    recipe: jewellry,
+
+    source:"https://dashing-kheer-a4c650.netlify.app/"
+  },
 
     {
   
-      id: 2,
+      id: 3,
   
       name: "Game with computer",
   
-      searchTerm: "Java Script",
+      searchTerm: "JavaScript",
   
-      description: 'Need to input any number from 1 to 20 and find out ehat number was guessed',
+      description: 'Need to input any number from 1 to 20 and find out what number was guessed.',
+      descriptionTwo:'Stack: HTML/CSS, JavaScript',
   
       recipe: game,
+
+      source: "https://game---guess--the-number--labrador.glitch.me/",
+  
   
     },
 
@@ -54,20 +78,12 @@ export const data = [
       description: '',
   
       recipe: grocery,
+
+      source:""
   
     },
    
-    {
-      id: 4,
-  
-      name: "Juwelry shop",
-  
-      searchTerm: "React",
-  
-      description: 'You may skip pictures, delete each item or delete all',
-  
-      recipe: jewellry,
-    },
+ 
 
     {
       id: 5,
@@ -77,8 +93,10 @@ export const data = [
       searchTerm: "Bootstrap",
   
       description: 'Site for photographer',
+      descriptionTwo:'Stack: HTML/CSS, Bootstrap',
   
       recipe: photographer,
+      source:"https://photografer-site.glitch.me/"
     },
 
     {
@@ -88,9 +106,10 @@ export const data = [
   
       searchTerm: "Javascript",
   
-      description: '',
-  
+      description: 'Click on a button - and find out phraze of the day',
+      descriptionTwo:'Stack: HTML/CSS, JavaScript',
       recipe: print,
+      source:"https://phraze-of-the-day-by-julia.glitch.me"
     },
 
     {
@@ -100,9 +119,11 @@ export const data = [
   
       searchTerm: "Javascript",
   
-      description: '',
+      description: 'It is a game, where you may answer the questions.',
+      descriptionTwo:'Stack: HTML/CSS, JavaScript',
   
       recipe: Quizz,
+      source:"https://quizz-please-fashion.glitch.me/"
     },
 
     {
@@ -112,9 +133,10 @@ export const data = [
   
       searchTerm: "Javascript",
   
-      description: '',
-  
+      description: 'This app shows the number of days, hours, minutes and seconds till exact date. Also it includes aoudio, which you may start and pause.',
+      descriptionTwo:'Stack: HTML/CSS, Javascript',
       recipe: santa,
+      source:"https://santa-is-coming-to-town-by-julia.glitch.me/"
     },
 
     {
@@ -124,9 +146,11 @@ export const data = [
   
       searchTerm: "Javascript",
   
-      description: '',
+      description: 'This is an app, which you may use, when you need to share a bill with friends including tips.',
+      descriptionTwo:'Stack: HTML/CSS, Javascript',
   
       recipe: splitBill,
+      source:"https://lets-split-the-bill-by-julia.glitch.me"
     },
 
     {
@@ -136,9 +160,11 @@ export const data = [
   
       searchTerm: "JavaScript",
   
-      description: '',
+      description: 'Planer for your "to do" during a day.',
+      descriptionTwo:'Stack: HTML/CSS, Javascript',
   
       recipe: ToDoList,
+      source:"https://to-do-list-by-julia-khakimova.glitch.me"
     },
 
     {
@@ -146,11 +172,13 @@ export const data = [
   
       name: "Weather API",
   
-      searchTerm: "dress",
+      searchTerm: "API",
   
-      description: 'API/Javascript',
+      description: 'Use this app to find out the weather in any country of the world.',
+      descriptionTwo:'Stack:API/Javascript, HTML/CSS, ',
   
       recipe: Weather,
+      source:"https://api-weather-by-julia-khakimova.glitch.me/"
     },
 
     {
@@ -160,10 +188,11 @@ export const data = [
   
       searchTerm: "Javascript",
   
-      description: '',
-  
+      description: 'This site can be used when you need to find a book. Use input.',
+      descriptionTwo:'Stack: HTML/CSS, Javascript',
       recipe: bookDiscont,
-    }
+      source:"https://roomy-electric-citrine.glitch.me/"
+    },
 
    
 ]
