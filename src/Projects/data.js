@@ -1,5 +1,5 @@
 import recipe from './Scrinshots/recipe.png';
-import game from './Scrinshots/GameLabrador.jpeg';
+import game from './Scrinshots/GameLabrador.png';
 import grocery from './Scrinshots/Grocery-list2.jpeg';
 import jewellry from './Scrinshots/Jewellry-Shop.png';
 import photographer from './Scrinshots/photographer.png';
