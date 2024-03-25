@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { data } from "./Projects/data";
 import './App.css';
 import MyPhoto from "./MyPhoto";
 import ContactForm from "./ContactForm";
@@ -12,30 +10,27 @@ import Pr from "./Pr";
 
 
 
+
 function App (){
- 
-/*Состояние для проектов */  
-const [staff,setStuff]=useState(data);
+   
+
 
     return (<div>   
-        <div>     
+        <div>  
+             
     <MyPhoto />
 
     <ForAbout />
 
-    <MyStack />
+    <MyStack /> 
 
+    <Pr />
    
+    <Testimonials />
 
-   <Pr />
-   
-   <Testimonials />
-
-   <ContactForm />
+    <ContactForm />
 
     <Footer />   
-
-  
     
     </div>
     
