@@ -9,7 +9,7 @@ import { dataForAbout } from "./dataForAbout";
 function ForAbout(){
 
 
-const [about, setAbout] = useState(dataForAbout);
+ 
 const [showText,setShowText]=useState(false);
 
 
@@ -20,10 +20,10 @@ const showTextClick = (item) => {
     setShowText(!showText)
   }
 
-    return(<div>
+    return(
 
 <div>
-    {about.map((item) => {
+    {dataForAbout.map((item) => {
       const { id, description, name, showMore } = item;
       return (
         <div className="TextPosition"key={id}>
@@ -34,9 +34,7 @@ const showTextClick = (item) => {
     })}
   </div>
 
-
-
-    </div>)
+)
  
 
     

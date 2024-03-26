@@ -11,7 +11,7 @@ import Pr from "./Pr";
 
 
 
-function App (){
+function Home (){
    
 
 
@@ -40,4 +40,4 @@ function App (){
 }
 
 
-export default App;
+export default Home;
