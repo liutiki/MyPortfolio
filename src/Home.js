@@ -15,7 +15,7 @@ function Home (){
    
 
 
-    return (<div>   
+    return ( 
         <div>  
              
     <MyPhoto />
@@ -34,7 +34,7 @@ function Home (){
     
     </div>
     
-    </div>
+    
            
     )
 }
