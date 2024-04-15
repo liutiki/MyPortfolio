@@ -1,8 +1,23 @@
+import { useEffect } from 'react';
 import Photo from './Projects/Scrinshots/Julia-photo.png';
+import { gsap } from "gsap";
 
 
 
 function MyPhoto  () {
+
+    useEffect(() => {
+        setTimeout(() => {
+            animateButton();
+        },1000);
+    }, []);
+    
+    
+    const animateButton = () => {
+        gsap.to('.Hello', { y:0, duration: 3, opacity: 1 });
+    }
+    
+
 return(
 
 <div className='frontend'>

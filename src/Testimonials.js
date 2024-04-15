@@ -14,7 +14,10 @@ const Container = styled.div`
    padding: 20px;
    margin-top:10%;
    margin-bottom:10%;
-  `
+
+   @media (max-width: 768px) {
+    max-width: 370px;
+}`
 ;
 
 const Position = styled.div`
@@ -33,7 +36,11 @@ const Description = styled.h2`
 font-size:18px;
 font-family: "Exo 2", sans-serif;
 line-height:35px;
-`
+
+@media (max-width: 768px) {
+    font-size:16px;
+    line-height:30px;
+}`
 ;
 
 const Image = styled.img`

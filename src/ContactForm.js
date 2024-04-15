@@ -21,7 +21,11 @@ const Form = styled.form`
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
- `;
+
+  @media (max-width: 768px) {
+    max-width: 300px;
+    margin-top: 3%;
+}`;
 
 const Label = styled.label`
   margin-bottom: 5px;

@@ -27,6 +27,7 @@
   font-size: 16px;
   font-family: "Roboto Mono", monospace;
   background:linear-gradient(to right, #ffcc00, #ff6600, #cc3300);
+
 }
 
 .Julia{
@@ -53,6 +54,7 @@ color:rgb(33, 37, 41)
 
 .Hello{
   margin-top: 5%;
+  opacity: 0;
 }
 
 .Myphoto{
@@ -72,6 +74,7 @@ color:rgb(33, 37, 41)
   font-size:19px;
   font-weight: 300;
   margin-top: 10px;
+  
  }
 
 .button-contact:hover{

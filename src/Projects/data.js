@@ -10,13 +10,52 @@ import ToDoList from './Scrinshots/ToDoList.jpeg';
 import Weather from './Scrinshots/WeatherAPI.jpeg';
 import bookDiscont from './Scrinshots/Книжный дисконт.jpg';
 import shop from './Scrinshots/Shop-on-line.png';
+import dog from './Scrinshots/dog.jpg';
+import nature from './Scrinshots/nature.jpeg' ;
+import furniture from './Scrinshots/Furniture.png';
 
 
 
 export const data = [
 
+
   {
     id: 1,
+
+    name: "Grooming dog",
+
+    searchTerm: "HTML",
+
+    description: 'Site fot a dog groomer salon',
+
+    descriptionTwo: 'Used: HTML/CSS/GSAP',
+
+    recipe: dog,
+
+    source:"https://viva-diva-grooming.glitch.me/#works"
+  },
+
+
+  {
+    id: 2,
+
+    name: "Web app with sounds of nature",
+
+    searchTerm: "Javascript",
+
+    description: 'Stack: Javascript/HTML/CSS',
+
+    descriptionTwo: 'How to use: Just click on a button "Rain", "Waves", "Nature"',
+
+    recipe: nature,
+
+    source:"https://chimerical-lollipop-4a7105.netlify.app/"
+  },
+
+
+
+  {
+    id: 3,
 
     name: "Online Shop",
 
@@ -33,7 +72,7 @@ export const data = [
 
 
   {
-    id: 2,
+    id: 4,
 
     name: "Juwelry shop",
 
@@ -50,11 +89,11 @@ export const data = [
 
     {
   
-      id: 3,
+      id: 5,
   
       name: "Game with computer",
   
-      searchTerm: "JavaScript",
+      searchTerm: "Javascript",
   
       description: 'Need to input any number from 1 to 20 and find out what number was guessed.',
       descriptionTwo:'Stack: HTML/CSS, JavaScript',
@@ -66,26 +105,12 @@ export const data = [
   
     },
 
-    {
-  
-      id: 3,
-  
-      name: "Grocery-List",
-  
-      searchTerm: "React",
-   
-      description: '',
-  
-      recipe: grocery,
-
-      source:""
-  
-    },
+    
    
  
 
     {
-      id: 5,
+      id: 6,
   
       name: "Photographer site",
   
@@ -99,7 +124,7 @@ export const data = [
     },
 
     {
-      id: 6,
+      id: 7,
   
       name: "Phraze of the day",
   
@@ -112,7 +137,7 @@ export const data = [
     },
 
     {
-      id: 7,
+      id: 8,
   
       name: "Game:Quizz, please",
   
@@ -126,7 +151,7 @@ export const data = [
     },
 
     {
-      id: 8,
+      id: 9,
   
       name: "How many days to Christmas",
   
@@ -139,7 +164,7 @@ export const data = [
     },
 
     {
-      id: 9,
+      id: 10,
   
       name: "Split the Bill App",
   
@@ -153,7 +178,7 @@ export const data = [
     },
 
     {
-      id: 10,
+      id: 11,
   
       name: "To Do List",
   
@@ -167,7 +192,7 @@ export const data = [
     },
 
     {
-      id: 11,
+      id: 12,
   
       name: "Weather API",
   
@@ -181,7 +206,7 @@ export const data = [
     },
 
     {
-      id: 12,
+      id: 13,
   
       name: "Book Discount",
   
@@ -190,8 +215,24 @@ export const data = [
       description: 'This site can be used when you need to find a book. Use input.',
       descriptionTwo:'Stack: HTML/CSS, Javascript',
       recipe: bookDiscont,
-      source:"https://roomy-electric-citrine.glitch.me/"
+      source:"https://661d0d307c023a0096a48153--fanciful-mermaid-bb07ad.netlify.app/"
     },
+
+
+    {
+      id: 14,
+  
+      name: "Furniture shop",
+  
+      searchTerm: "Javascript",
+  
+      description: 'This is a little landing page with count down time and with changing width slides.',
+      descriptionTwo:'Stack: HTML/CSS, Javascript',
+      recipe: furniture,
+      source:" https://661d026c078ce8f0b569aed0--willowy-crepe-7a5bb3.netlify.app/"
+    },
+
+
 
    
 ]

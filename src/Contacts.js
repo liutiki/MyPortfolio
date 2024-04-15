@@ -11,7 +11,12 @@ margin-left:10%;
 margin-top:10%;
 font-size:20px;
 font-family: "Roboto Mono", monospace;
-`
+
+@media (max-width: 768px) {
+  margin-top: 18%; 
+  font-size:17px;
+}`;
+
 
 const Join=styled.label`
 display:flex;
@@ -32,7 +37,10 @@ const Form = styled.form`
   &:hover {
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
   }
- `;
+ 
+ @media (max-width: 768px) {
+  max-width: 370px;
+ }`;
 
 const Label = styled.label`
   margin-bottom: 5px;
