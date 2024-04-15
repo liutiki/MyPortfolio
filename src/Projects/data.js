@@ -1,5 +1,4 @@
 import game from './Scrinshots/GameLabrador.png';
-import grocery from './Scrinshots/Grocery-list2.jpeg';
 import jewellry from './Scrinshots/Jewellry-Shop.png';
 import photographer from './Scrinshots/photographer.png';
 import print from './Scrinshots/print.jpg';
@@ -230,7 +229,7 @@ export const data = [
       descriptionTwo:'Stack: HTML/CSS, Javascript',
       recipe: furniture,
       source:" https://661d026c078ce8f0b569aed0--willowy-crepe-7a5bb3.netlify.app/"
-    },
+    }
 
 
 
