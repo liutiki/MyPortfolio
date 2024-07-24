@@ -4,13 +4,14 @@ import React from 'react';
 import styled from 'styled-components';
 import next from './Projects/Scrinshots/next.png';
 import back from './Projects/Scrinshots/back.png'
+import { useTranslation } from "react-i18next";
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content:center;
   max-width:700px;
-  border:2px solid #D24545;
+  border:2px solid #ff57fc;
    padding: 20px;
    margin-top:10%;
    margin-bottom:10%;
@@ -94,6 +95,8 @@ const nextPerson=() =>{
    })
 }
 
+const {t}=useTranslation()
+
 return(<Position>
 
 <Container>
@@ -120,12 +123,12 @@ return(<Position>
 </StarContainer>
 
     <div>
-        <h1>{name}</h1>
+        <h1>{t(name)}</h1>
     </div>
 
 
     <div>
-        <Description>{description}</Description>
+        <Description>{t(description)}</Description>
     </div>
 
    

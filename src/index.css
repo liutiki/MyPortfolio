@@ -16,7 +16,7 @@ code {
 
 
 .mynav {
-  background:linear-gradient(to right, #ffcc00, #ff6600, #cc3300);
+  background:linear-gradient(to right, #00e1ff, #ff57fc, #b40293);
   transition: background-color 0.7s;
 }
 
@@ -32,4 +32,5 @@ code {
   border:none;
   color: #F55C47;
   font-size: 17px;
+  
 }

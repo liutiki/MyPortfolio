@@ -1,0 +1,67 @@
+.hurt{
+    margin-top: 15%;
+    width:35%; 
+    filter:drop-shadow(0 0 20px);
+    transition: all 0.8s ease; 
+    border-radius: 7px;
+}
+.hurtPosition{
+   margin-left:50%;
+}
+
+.header-position{
+    display:flex;
+    justify-content:flex-start;
+    margin-left: 5%;
+  }
+  
+  .header{
+    margin-top: 20px;
+    font-size: 40px;
+    color:#D24545;
+    font-family: "Exo 2", sans-serif;
+    line-height: 50px;
+    font-weight: 700;
+    opacity: 0;
+    }
+  
+  .aboutMeText{
+  font-family: "Roboto Mono", monospace;
+  line-height: 27px;
+  font-size: 17px;
+  font-weight:400;
+  }
+  
+  .TextPosition{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+.function{
+    display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+margin-bottom:20%;
+
+}
+  
+@media (max-width: 500px) {
+
+    .hurt{
+        margin-top: 35%;
+        width:32%; 
+    }
+    .header{
+        margin-left:20px;
+        margin-top: 21px;
+        font-size: 30px;
+               }
+      
+      .aboutMeText{
+        font-size: 12px;
+          }
+
+}

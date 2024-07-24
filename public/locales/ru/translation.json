@@ -1,0 +1,52 @@
+{
+    "Home":"Главная",
+    "About":"Обо мне",
+    "Projects":"Проекты",
+    "Contacts":"Контакты",
+
+
+    "Hi, My Name is":"Привет, Я",
+    "Khakimova Julia":"Хакимова Юлия",
+    "Front-end developer":"Web - разработчик",
+    "Contact me":"Связаться",
+
+"Some of my works":"Проекты",
+
+
+    "Alina, grooming salon":  "Алина, салон стрижки собак" ,
+    "I am very pleased with the result of the work of Julia that created my site. The site looks great, functions perfectly and fully meets my expectations.I definitely recommend you to all my friends and partners":
+    "Я очень довольна результатом работы Юлии, которая создала мой сайт. Сайт выглядит отлично, функционирует идеально и полностью соответствует моим ожиданиям. Я определенно рекомендую вас всем своим друзьям и партнерам",
+      
+
+
+
+  "Alena, Salon of massage.": "Алена, Салон массажа",
+  "I want to thank Julia for creating an amazing massage website! Here people may find all the necessary information about various types of massage, its healing properties and recommendations for health care. The site is designed very beautifully and conveniently, it is easy to find the necessary information.":
+   "Хочу поблагодарить Юлию за создание удивительного сайта массажа! Здесь люди могут найти всю необходимую информацию о различных видах массажа, его целебных свойствах и рекомендациях по уходу за здоровьем. Сайт оформлен очень красиво и удобно, легко найти необходимую информацию.",
+ 
+  "Maria, Candle shop": "Мария, Магазин свечей",
+  "The site that made Julia is very easy to use, I easily found all the necessary products and was able to place an order without any problems. Thanks to this site, my home atmosphere has become even more cozy and relaxing. I am very satisfied with the quality of goods and service! Thank you for your hard work and creativity!":
+  "Сайт, который сделала Юлия, очень удобен в использовании, я легко нашла все необходимые товары и смогла оформить заказ без проблем. Благодаря этому сайту моя домашняя атмосфера стала еще более уютной и расслабляющей. Я очень довольна качеством товаров и обслуживания! Спасибо за ваш труд и креатив!",
+
+  "Watch the project":"Просмотреть проект",
+ 
+    "greetingMessage": "Заказать проект или просто сказать привет, используйте эту форму",
+
+    "Submit":"Отправить",
+
+    "New site":"Новый сайт",
+
+    "Massage Spa Salon":"Массажный Спа Салон",
+
+    "View Project":"Смотреть проект",
+
+    "Watch more":"Больше проектов",
+
+    "showLess": "Показать меньше",
+    "showMore": "Показать больше",
+    
+    "description": "Я front-end разработчик с опытом создания современных и интуитивно понятных веб-сайтов. Моя страсть к программированию позволяет мне воплощать идеи в уникальные и функциональные пользовательские интерфейсы. Я специализируюсь на React, HTML, CSS, JavaScript и других современных технологиях front-end разработки."
+  }
+
+
+

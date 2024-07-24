@@ -12,6 +12,7 @@ import './App.css';
 import Projects from './Projects';
 import MyNav from "./Navbar/MyNav";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutMe from './AboutMe/AboutMe';
 
 
 
@@ -20,11 +21,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
   
 
+
   return <Router>
     <MyNav />
    
     <Routes>
     <Route path="/"element={<Home/>}/>
+    <Route path="/AboutMe" element={<AboutMe />}/>
     <Route path="/Projects" element={<Projects />}/>
     <Route path="/Contacts" element={<Contacts />}/>
     </Routes>

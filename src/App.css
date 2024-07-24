@@ -13,9 +13,9 @@
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
-  border:1px solid grey;
-  margin:20px;
-}
+  margin:10px;
+  opacity: 0;
+ }
 
 
 .frontend{
@@ -26,7 +26,7 @@
   line-height: 2px;
   font-size: 16px;
   font-family: "Roboto Mono", monospace;
-  background:linear-gradient(to right, #ffcc00, #ff6600, #cc3300);
+  background:linear-gradient(to right, #00e1ff, #ff57fc, #b40293);
 
 }
 
@@ -50,6 +50,7 @@ color:rgb(33, 37, 41)
   font-size: 26px;
   font-weight: 300;
   font-family: "Roboto Mono", monospace;
+  height:10vh;
 }
 
 .Hello{
@@ -62,7 +63,17 @@ color:rgb(33, 37, 41)
   width:32%;
 }
 
+.flower{
+margin-bottom: 170px;
+margin-left: 120px;
+width:140px;
+position:absolute;
+}
 
+.flowerTwo{
+width:110px;
+margin-left: 30px;
+}
 
 
 
@@ -73,8 +84,6 @@ color:rgb(33, 37, 41)
   border:1px solid black ;
   font-size:19px;
   font-weight: 300;
-  margin-top: 10px;
-  
  }
 
 .button-contact:hover{
@@ -104,43 +113,9 @@ border-color:azure;
 }
 
 
-/*Section About*/
-.header-position{
-  display:flex;
-  justify-content:flex-start;
-  margin-left: 5%;
-}
 
-.header{
-  margin-top: 30px;
-  font-size: 40px;
-  color:#D24545;
-  font-family: "Exo 2", sans-serif;
-  line-height: 50px;
-  font-weight: 700;
-  }
 
-.aboutMeText{
-font-family: "Roboto Mono", monospace;
-line-height: 27px;
-font-size: 17px;
-font-weight:400;
-}
 
-.TextPosition{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.Copyright{
-  display:flex;
-  justify-content: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
 
 
 
@@ -207,5 +182,12 @@ font-weight:400;
   margin:20px;
   align-items: flex-start;
 }
+
+.flower{
+  margin-bottom: 170px;
+  margin-left: 90px;
+  width:90px;
+  position:absolute;
+  }
 
 }

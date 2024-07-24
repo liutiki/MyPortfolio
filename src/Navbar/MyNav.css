@@ -1,0 +1,14 @@
+.lanButton{
+    border:1px solid black;
+    background-color: transparent;
+    align-self: center;
+    margin-left: 45px;
+    font-size: 15px;
+    padding: 4px;
+    color:black;
+}
+
+.lanButton:hover{
+    border:1px solid black;
+    color:black;
+}

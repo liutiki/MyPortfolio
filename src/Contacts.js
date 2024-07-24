@@ -2,6 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import styled from 'styled-components';
 import Footer from './Footer';
+import { useTranslation } from 'react-i18next';
 
 
 const HI=styled.h2`
@@ -79,6 +80,8 @@ const Button = styled.button`
 
 function Contacts() {
   const [state, handleSubmit] = useForm("xgegyzoo");
+
+  const {t}=useTranslation()
   
   if (state.succeeded) {
     return <Join>Thanks for joining!</Join>;
@@ -87,7 +90,7 @@ function Contacts() {
   return (<div>
 
     <HI>
-   <p>If you want to say "Hi" or build a project with me, please use this form.</p>
+    <p>{t('greetingMessage')}</p>
     </HI>
 
     <Form onSubmit={handleSubmit} 
@@ -104,7 +107,7 @@ function Contacts() {
       <TextArea placeholder="Your message" id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       
-      <Button type="submit" disabled={state.submitting}>Submit</Button>
+      <Button type="submit" disabled={state.submitting}>{t('Submit')}</Button>
     </Form>
 
     <Footer />   

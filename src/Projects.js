@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { data } from "./Projects/data";
+import { useEffect, useState } from "react";
+import { data } from "./Projects/dataProjects";
 import Buttons from "./Buttons";
 import Footer from "./Footer";
 import styled from "styled-components";
-
+import { useTranslation } from "react-i18next";
+import { gsap } from "gsap";
 
 const BtnPosition = styled.div`
   display:flex;
@@ -18,9 +19,18 @@ const BtnPosition = styled.div`
 `;
 
 const Picture = styled.img`
-  width:400px;
+width:500px;
+filter:drop-shadow(0 0 20px);
+transition: all 0.8s ease; 
+border-radius:17px;
 
-  @media (max-width: 500px) {
+&:hover{
+    transform: translateY(10px);
+    box-shadow: 0 0 60px #817d7d;
+    background-color: #ffffff;
+}
+
+@media (max-width: 500px) {
 width:300px;
  }
 
@@ -34,7 +44,12 @@ const Button = styled.button`
   padding:15px;
   border:1px solid white;
   background-color:#3E7C17;
-  `;
+  margin-top:10px;
+
+  &:hover{
+background-color:#4b951e;
+}
+   `;
 
 const Link = styled.a`
 text-decoration: none;
@@ -46,6 +61,7 @@ const Name=styled.h3`
 color:black;
 font-size:25px;
 font-family: "Mulish", sans-serif;
+margin-top:3%;
 `
 ;
 
@@ -62,6 +78,20 @@ font-weight:400;
 
 function Projects(){
 
+  useEffect(() => {
+    gsap.to('.product-card', {
+     duration: 3,
+     opacity:1,
+     delay: 0.7,
+     y:-20,
+     stagger:{
+     each: 0.3,
+     from: "start",
+      },
+     
+    });
+  }, []);
+
     const [staff,setStuff]=useState(data);
 
  
@@ -69,6 +99,9 @@ function Projects(){
         const newProject=data.filter(element=>element.searchTerm===searchTerm)
         setStuff(newProject);
     }
+
+    
+    const {t}=useTranslation()
 
     return(
 
@@ -84,13 +117,13 @@ return <div className="product-card"key={id}>
 
 
 
-<Picture src={recipe} width="400px"  alt="pictures"/>
+<Picture src={recipe} alt="pictures"/>
 <div className="product-info">
 <Name>{name}</Name>
 <Description>Description: {description}</Description>
 <Description>{descriptionTwo}</Description>
 
-<Button className="btn-pro"><Link href={source} target="_blank" rel="noopener noreferrer">Watch the project</Link></Button>
+<Button className="btn-pro"><Link href={source} target="_blank" rel="noopener noreferrer">{t('Watch the project')}</Link></Button>
 
 </div>
 

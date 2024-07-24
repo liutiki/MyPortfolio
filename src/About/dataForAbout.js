@@ -11,6 +11,8 @@ export const dataForAbout = [
       stack:'',
 
       showMore: false,
+
+      image: 'One'
     
     },
 

@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import check from './Projects/Scrinshots/check.png';
 import meal from './Projects/Scrinshots/Meal Ideas.png';
 import recipe from './Projects/Scrinshots/FindRecipe.png';
+import { useTranslation } from 'react-i18next';
 
 const HeaderPosition=styled.div`
 display:flex;
@@ -26,7 +27,7 @@ const Some=styled.h1`
 `;
 
 const Block = styled.div`
-    background-color: #1D2B53;
+background-color: #1d2b53b5;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,10 +109,14 @@ const WatchMore = styled.button`
 `;
 
 function Pr() {
+
+    const {t}=useTranslation()
+
+
     return (
         <div>
             <HeaderPosition>
-   <Some>Some of my works</Some>
+   <Some>{t('Some of my works')}</Some>
    </HeaderPosition>
             <Block>
             <Image src={meal} alt="mealIdeas" />
@@ -126,7 +131,7 @@ function Pr() {
                     <p><img src={check} width="20px" alt="check" />Map</p>
                     <p><img src={check} width="20px" alt="check" />Local Storage</p>
                     <a href="https://willowy-moxie-11fc60.netlify.app" target="_blank" rel="noopener noreferrer">
-                        <ViewButton>View Project</ViewButton>
+                        <ViewButton>{t('View Project')}</ViewButton>
                     </a>
                 </Items>
             </Block>
@@ -143,14 +148,14 @@ function Pr() {
                     <p><img src={check} width="20px" alt="check" />Map</p>
                     <p><img src={check} width="20px" alt="check" />Props</p>
                     <a href="https://zesty-kangaroo-5d8f42.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <ViewButton>View Project</ViewButton>
+                        <ViewButton>{t('View Project')}</ViewButton>
                     </a>
                 </Items>
             </BlockTwo>
 
             <WatchPosition>
                 <Link to="/projects">
-                    <WatchMore>Watch more</WatchMore>
+                    <WatchMore>{t('Watch more')}</WatchMore>
                 </Link>
             </WatchPosition>
         </div>

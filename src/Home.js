@@ -3,9 +3,10 @@ import MyPhoto from "./MyPhoto";
 import ContactForm from "./ContactForm";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
-import ForAbout from "./About/ForAbout";
-import MyStack from "./About/MyStack";
+
 import Pr from "./Pr";
+import MyRecentProjects from './MyRecentProjects/MyRecentProjects';
+
 
 
 
@@ -20,10 +21,8 @@ function Home (){
              
     <MyPhoto />
 
-    <ForAbout />
-
-    <MyStack /> 
-
+    <MyRecentProjects />
+  
     <Pr />
    
     <Testimonials />
