@@ -39,7 +39,7 @@ function MyNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">{t('Home')}</Nav.Link>
-            <Nav.Link href="/AboutMe">{t('About')}</Nav.Link>
+            <Nav.Link href="/AboutMe">{t('AboutMe')}</Nav.Link>
             <Nav.Link href="/Projects">{t('Projects')}</Nav.Link>
             <Nav.Link href="/Contacts">{t('Contacts')}</Nav.Link>
             
