@@ -1,4 +1,4 @@
-# Портфоли на React
+# Портфолио на React
 
 В этом проекте я использую React hooks,i18next, React Router.
 
