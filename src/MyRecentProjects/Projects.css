@@ -66,7 +66,14 @@ flex-direction: row;
 
 @media (max-width: 500px) {
 
+  .massageSalon{
+  width:330px;
+}
 
+.comerse-position{
+
+flex-direction: column;
+}
     .spaPosition{
       flex-direction: column;
       margin-top:30px;

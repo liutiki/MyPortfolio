@@ -1,0 +1,18 @@
+.Myphoto{
+  margin-top: 5px;
+  width:12%;
+border-radius: 50%;
+background-color: antiquewhite;
+}
+
+.flower{
+margin-bottom: 170px;
+margin-left: 120px;
+width:140px;
+position:absolute;
+}
+
+.flowerTwo{
+width:110px;
+margin-left: 30px;
+}

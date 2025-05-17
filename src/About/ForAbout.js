@@ -27,7 +27,7 @@ const showTextClick = (item) => {
       const { id, description, name, showMore, image } = item;
       return (
         <div>
-         <div className="hurtPosition">
+        <div className="hurtPosition">
          <img className="hurt" src={`./${image}.jpg`} alt="JuliaPhoto" /> 
          </div>
         <div className="TextPosition"key={id}>

@@ -1,5 +1,5 @@
-import massage from './massage.jpg';
-import kmp from './kmp.png';
+import massage from './assets/massage.jpg';
+import kmp from './assets/kmp.png';
 import './Projects.css';
 import { useTranslation } from 'react-i18next';
 

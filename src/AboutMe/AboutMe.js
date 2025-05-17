@@ -1,7 +1,7 @@
 import './AboutMe.css';
 import { dataAboutMe } from './dataAboutMe';
 import ForAbout from '../About/ForAbout.js';
-import MyStack from '../About/MyStack';
+import MyStack from '../MyStack/MyStack.js';
 import { gsap } from "gsap";
 import { useEffect } from 'react';
 
@@ -52,7 +52,6 @@ function AboutMe () {
                    
                         <div className='textAbout'>
                         <ForAbout/> 
-                        <MyStack />
                         </div>
                      
                     </div>
