@@ -15,7 +15,7 @@ return(
     </div>
 <div className="masPosition">
     <p className="Site">{t("Sea Shipping")}</p>
-    <button className="btn-spa"><a className="aSpa"href="https://kdsc.netlify.app" target="_blank" rel="noreferrer">{t('Watch the project')}</a></button>
+    <button className="btn-spa"><a className="aSpa"href="https://kdsc.ru" target="_blank" rel="noreferrer">{t('Watch the project')}</a></button>
     <button className="btn-spa"><a className="aSpa"href="https://github.com/liutiki/KMP.git" target="_blank" rel="noreferrer">{t('Watch GitHub')}</a></button>
 </div>
    
