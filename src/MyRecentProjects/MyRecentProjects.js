@@ -1,4 +1,4 @@
-import massage from './assets/massage.jpg';
+import massage from './assets/massage.png';
 import kmp from './assets/kmp.png';
 import './Projects.css';
 import { useTranslation } from 'react-i18next';
