@@ -1,7 +1,6 @@
 import './AboutMe.css';
 import { dataAboutMe } from './dataAboutMe';
 import ForAbout from '../About/ForAbout.js';
-import MyStack from '../MyStack/MyStack.js';
 import { gsap } from "gsap";
 import { useEffect } from 'react';
 
