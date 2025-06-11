@@ -147,7 +147,7 @@ function Pr() {
                     <p><img src={check} width="20px" alt="check" />Hooks: useState, useEffect</p>
                     <p><img src={check} width="20px" alt="check" />Map</p>
                     <p><img src={check} width="20px" alt="check" />Props</p>
-                    <a href="https://zesty-kangaroo-5d8f42.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://apirecipe.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <ViewButton>{t('View Project')}</ViewButton>
                     </a>
                 </Items>
