@@ -28,7 +28,7 @@ return(
    
     <div className="masPosition">
         <p className="Site">{t("Massage Spa Salon")}</p>
-        <button className="btn-spa"><a className="aSpa"href="https://luminous-cheesecake-7bfe2a.netlify.app" target="_blank" rel="noreferrer">{t('Watch the project')}</a></button>
+        <button className="btn-spa"><a className="aSpa"href="https://massagesalon.netlify.app/" target="_blank" rel="noreferrer">{t('Watch the project')}</a></button>
         <button className="btn-spa"><a className="aSpa"href="https://github.com/liutiki/MassageSalon" target="_blank" rel="noreferrer">{t('Watch GitHub')}</a></button>
     </div>
 
