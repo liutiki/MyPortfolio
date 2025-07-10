@@ -1,7 +1,7 @@
-import star from "./Projects/Scrinshots/star.png";
-import alena from './Projects/Scrinshots/Alena.masssage.jpg';
-import dogs from './Projects/Scrinshots/dogs groomer.jpg';
-import candle from './Projects/Scrinshots/candle maker.jpg';
+import star from "./Projects/assets/star.png";
+import alena from './Projects/assets/Alena.masssage.jpg';
+import dogs from './Projects/assets/dogs groomer.jpg';
+import candle from './Projects/assets/candle maker.jpg';
 
 export const DataTestimonials =[
 

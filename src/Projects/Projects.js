@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { data } from "./Projects/dataProjects";
-import Buttons from "./Buttons";
-import Footer from "./Footer";
+import { data } from "./dataProjects";
+import Buttons from "../Buttons";
+import Footer from "../Footer";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 import { gsap } from "gsap";

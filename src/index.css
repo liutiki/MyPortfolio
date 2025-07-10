@@ -15,10 +15,7 @@ code {
 
 
 
-.mynav {
-  background:linear-gradient(to right, #00e1ff, #ff57fc, #b40293);
-  transition: background-color 0.7s;
-}
+
 
 .scrolled {
     background: white !important; 

@@ -1,9 +1,7 @@
-import { useEffect, useState } from 'react';
-import Photo from '../Projects/Scrinshots/Julia-photo.png';
+import { useEffect} from 'react';
+import Photo from '../Projects/assets/Julia-photo.png';
 import { gsap } from "gsap";
 import { useTranslation } from 'react-i18next';
-import flowerTwo from '../Projects/Scrinshots/flowerTwo.png';
-import flower from '../Projects/Scrinshots/flower.png';
 import './MyPhoto.css';
 
 
@@ -23,7 +21,7 @@ function MyPhoto  () {
 
     const {t}=useTranslation()
 
-    const [showImage, setShowImage] = useState(false);
+  
 
 return(
 
@@ -39,13 +37,11 @@ return(
 <button
         className="button-contact"
         onClick={() => window.open('https://t.me/JuliaKhakimova', '_blank')}
-        onMouseEnter={() => setShowImage(true)}
-        onMouseLeave={() => setShowImage(false)}
+      
       >
         {t('Contact me')}
       </button>
-      {showImage && <img className="flowerTwo"src={flowerTwo} alt="flowerTwo" />}
-      {showImage && <img className="flower" src={flower} alt="flower" />}
+     
 
 
 </div>

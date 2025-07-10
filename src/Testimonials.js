@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { DataTestimonials } from "./DataTestimonials";
-import React from 'react';
 import styled from 'styled-components';
-import next from './Projects/Scrinshots/next.png';
-import back from './Projects/Scrinshots/back.png'
+import next from './Projects/assets/next.png';
+import back from './Projects/assets/back.png'
 import { useTranslation } from "react-i18next";
 
 const Container = styled.div`

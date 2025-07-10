@@ -18,65 +18,6 @@
  }
 
 
-.frontend{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  line-height: 2px;
-  font-size: 16px;
-  font-family: "Roboto Mono", monospace;
-  background:linear-gradient(to right, #00e1ff, #ff57fc, #b40293);
-
-}
-
-.Julia{
-display:flex;
-flex-direction: column;
-font-family: "Exo 2", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-size: 60px;    
-color:rgb(33, 37, 41)                                                      
-}
-
-.Name{
-  font-size: 26px;
-  font-weight: 300;
-  font-family: "Roboto Mono", monospace;
-}
-
-.Front{
-  font-size: 26px;
-  font-weight: 300;
-  font-family: "Roboto Mono", monospace;
-  height:10vh;
-}
-
-.Hello{
-  margin-top: 5%;
-  opacity: 0;
-}
-
-
-
-
-.button-contact{
-  background-color:transparent;
-  padding:37px;
-  font-family: "Roboto Mono", monospace;
-  border:1px solid black ;
-  font-size:19px;
-  font-weight: 300;
- }
-
-.button-contact:hover{
-border-color:azure;
-}
-
-
-
-
 .btn-top{
  background-color:white;
   padding:5px;
@@ -97,55 +38,9 @@ border-color:azure;
 }
 
 
-
-
-
-
-
-
-
 @media (max-width: 500px) {
 
-  .frontend{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    }
-  
-  .Julia{
-  display:flex;
-  flex-direction: column;
-  font-weight: 700;
-  font-size: 30px;                                                    
-  }
-
- 
-  .Name{
-    font-size: 16px;
-  }
-  
-  .Front{
-    font-size: 21px;  
-  }
-  
-  .Hello{
-    margin-top: 18%;
-  }
-  
-  .button-contact{
-    background-color:transparent;
-    padding:32px;
-    width:100%;
-    font-size:17px;
- 
-   }
-
-   .Myphoto{
-    width:55%;
-  }
-  
+   
   .product-card {
     flex-direction: column;
     align-items: center;
@@ -167,11 +62,6 @@ border-color:azure;
   align-items: flex-start;
 }
 
-.flower{
-  margin-bottom: 170px;
-  margin-left: 90px;
-  width:90px;
-  position:absolute;
-  }
+
 
 }

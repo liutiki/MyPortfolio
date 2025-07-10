@@ -1,18 +1,17 @@
-import game from './Scrinshots/GameLabrador.png';
-import jewellry from './Scrinshots/Jewellry-Shop.png';
-import photographer from './Scrinshots/photographer.png';
-import print from './Scrinshots/print.jpg';
-import Quizz from './Scrinshots/Quizz.jpeg';
-import santa from './Scrinshots/santa.jpeg';
-import splitBill from './Scrinshots/SplitBill.jpeg';
-import ToDoList from './Scrinshots/ToDoList.jpeg';
-import Weather from './Scrinshots/WeatherAPI.jpeg';
-import bookDiscont from './Scrinshots/Книжный дисконт.jpg';
-import shop from './Scrinshots/Shop-on-line.png';
-import dog from './Scrinshots/dog.png';
-import nature from './Scrinshots/nature.jpeg' ;
-import furniture from './Scrinshots/Furniture.png';
-import Portfolio from './Scrinshots/Portfolio.png';
+import game from './assets/GameLabrador.png';
+import jewellry from './assets/Jewellry-Shop.png';
+import photographer from './assets/photographer.png';
+import Quizz from './assets/Quizz.jpeg';
+import santa from './assets/santa.jpeg';
+import splitBill from './assets/SplitBill.jpeg';
+import ToDoList from './assets/ToDoList.jpeg';
+import Weather from './assets/WeatherAPI.jpeg';
+import bookDiscont from './assets/Книжный дисконт.jpg';
+import shop from './assets/Shop-on-line.png';
+import dog from './assets/dog.png';
+import nature from './assets/nature.jpeg' ;
+import furniture from './assets/Furniture.png';
+import Portfolio from './assets/Portfolio.png';
 
 
 export const data = [
@@ -138,18 +137,7 @@ export const data = [
       source:"https://photografer-site.glitch.me/"
     },
 
-    {
-      id: 7,
-  
-      name: "Phraze of the day",
-  
-      searchTerm: "Javascript",
-  
-      description: 'Click on a button - and find out phraze of the day',
-      descriptionTwo:'Stack: HTML/CSS, JavaScript',
-      recipe: print,
-      source:"https://phraze-of-the-day-by-julia.glitch.me"
-    },
+ 
 
     {
       id: 8,

@@ -1,7 +1,19 @@
 .Copyright{
+
     display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 19px;
+  font-family: "Roboto Mono", monospace;
   }
  
+
+  .line{
+    width: 100%; 
+    height: 1px; 
+    background-color: #000; 
+    margin: 10px 0; 
+  }

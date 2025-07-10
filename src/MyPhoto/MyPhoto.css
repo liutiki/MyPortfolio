@@ -5,14 +5,129 @@ border-radius: 50%;
 background-color: antiquewhite;
 }
 
-.flower{
-margin-bottom: 170px;
-margin-left: 120px;
-width:140px;
-position:absolute;
+.frontend{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 2px;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+background-color: rgb(82, 82, 236);
+height:400px;
 }
 
-.flowerTwo{
-width:110px;
-margin-left: 30px;
+
+
+
+.button-contact{
+  background-color:rgb(143, 233, 10);
+  width:300px;
+  height:50px;
+  padding:37px;
+  font-family: "Roboto Mono", monospace;
+  border:none;
+  font-size:23px;
+  font-weight: 300;
+ }
+
+
+
+.button-contact:hover{
+ background-color:rgb(169, 239, 30);
+}
+
+
+.Julia{
+display:flex;
+flex-direction: column;
+font-family: "Exo 2", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-size: 60px;    
+color:rgb(33, 37, 41)                                                      
+}
+
+.Name{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace;
+}
+
+.Front{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto Mono", monospace;
+  height:10vh;
+}
+
+@media (max-width: 500px) {
+  .button-contact{
+    
+    padding:32px;
+    width:100%;
+    font-size:17px;
+    }
+
+
+   .frontend{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    }
+
+
+
+
+
+  
+  
+  .Julia{
+  display:flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 30px;                                                    
+  }
+
+ 
+  .Name{
+    font-size: 16px;
+  }
+  
+  .Front{
+    font-size: 21px;  
+  }
+  
+  .Hello{
+    margin-top: 18%;
+  }
+  
+
+   .Myphoto{
+    width:22%;
+  }
+  
+  .product-card {
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-info {
+    text-align: center;
+}
+
+
+
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  border:1px solid grey;
+  margin:20px;
+  align-items: flex-start;
+}
+
 }

@@ -4,9 +4,12 @@ function Footer(){
     return(
       
     <div className="Copyright">
-     <p>© Copyright 2024 − Julia Khakimova</p>  
+        <div className="line"></div> 
+     <p>Мои контакты:</p>  
+     <p>e-mail: liutiki@list.ru</p>  
+     <p>telegram:@JuliaKhakimova</p>  
     </div> 
- 
+
     )
 }
 

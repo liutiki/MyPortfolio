@@ -76,7 +76,7 @@ function MyStack(){
 
     return(<div>
 <Stack>
-<h2 className="header">My stack is:</h2>
+<h2 className="header-myStack">Stack</h2>
 </Stack>
 <ul className="Stack">
 <LI>HTML5</LI>

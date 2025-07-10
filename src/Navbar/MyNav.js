@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom'; // Импортируйте Link
+import { Link } from 'react-router-dom';
 import './MyNav.css';
 
 function MyNav() {
@@ -45,6 +45,7 @@ function MyNav() {
             <Nav.Link as={Link} to="/AboutMe">{t('About')}</Nav.Link> 
             <Nav.Link as={Link} to="/Projects">{t('Projects')}</Nav.Link> 
             <Nav.Link as={Link} to="/Contacts">{t('Contacts')}</Nav.Link> 
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
