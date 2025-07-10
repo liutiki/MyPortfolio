@@ -10,7 +10,6 @@ import Home from './Home';
 import Contacts from './Contacts';
 import './App.css';
 import Projects from './Projects/Projects';
-import MyNav from "./Navbar/MyNav";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from './AboutMe/AboutMe';
 
